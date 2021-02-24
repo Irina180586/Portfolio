@@ -45,7 +45,7 @@
                 </div>
 
             </nav>
-           
+
 
 
         </header>
@@ -56,61 +56,66 @@
                 <h1>Hello!</h1>
                 <p>I’m Irina Gadimova, a User Experience designer. I enjoy creating human-centric, engaging experiences.
                 </p>
+                <button id="Skillset" class="button">Skillset</button>
+
             </div>
             <div class="herobox2">
                 <img src="images/Hero_img.png" alt="Irina_Gadimova_image">
             </div>
+
         </main>
+        <!--Skillset Popup-->
 
-        <div class="skillset">
-            <h1>Skillset</h1>
-        </div>
-        <div class="cards">
-            <div class="card1">
-                <img src="images/analysis.svg" alt="">
-                <h1>UX/UI Design Methodologies</h1>
-                <ul>
-                    <li>User Research: Interviews, Persona and Scenario Development</li>
-                    <li>Sketching and Storyboarding</li>
-                    <li>Sitemaping</li>
-                    <li>Wireframing</li>
-                    <li>Prototyping</li>
-                    <li>Usability Testing</li>
-                </ul>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <div class='closebt'>
+                    <span id="close">&times;</span>
+                </div>
+                <div class="cards">
+                    <div class="card1">
+                        <img src="images/analysis.svg" alt="">
+                        <h1>UX/UI Design Methodologies</h1>
+                        <ul>
+                            <li>User Research: Interviews, Persona and Scenario Development</li>
+                            <li>Sketching and Storyboarding</li>
+                            <li>Sitemaping</li>
+                            <li>Wireframing</li>
+                            <li>Prototyping</li>
+                            <li>Usability Testing</li>
+                        </ul>
+                    </div>
+
+                    <div class="card2">
+                        <img src="images/3d-modeling.svg" alt="">
+                        <h1>Tools</h1>
+                        <ul>
+                            <li>Figma</li>
+                            <li>Adobe XD, AI, Ps</li>
+                            <li>InVision</li>
+                            <li>GitHub</li>
+                            <li>VS/VS Code</li>
+                        </ul>
+                    </div>
+
+                    <div class="card3">
+                        <img src="images/web-browser.svg" alt="">
+                        <h1>Technical</h1>
+                        <ul>
+                            <li>HTML & CSS</li>
+                            <li>JavaScript, Jquery</li>
+                            <li>Bootstrap</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-
-            <div class="card2">
-                <img src="images/3d-modeling.svg" alt="">
-                <h1>Tools</h1>
-                <ul>
-                    <li>Figma</li>
-                    <li>Adobe XD, AI, Ps</li>
-                    <li>InVision</li>
-                    <li>GitHub</li>
-                    <li>VS/VS Code</li>
-                </ul>
-            </div>
-
-            <div class="card3">
-                <img src="images/web-browser.svg" alt="">
-                <h1>Technical</h1>
-                <ul>
-                    <li>HTML & CSS</li>
-                    <li>JavaScript, Jquery</li>
-                    <li>Bootstrap</li>
-                 </ul>
-            </div>
-
         </div>
 
         <div class="mywork">
             <h1>My Work</h1>
             <section>
-
-                <div class="casestudyimage">
+                <div class="caseStudyImageLeft">
                     <img src="images/Laptop image.png" alt="">
                 </div>
-
                 <div class="casestudy1">
                     <h3>Pollution Probe Website Redesign</h3>
                     <p>Redesigning the existing content-heavy website to a minimal, visually communicative one with a
@@ -120,9 +125,6 @@
                 </div>
             </section>
 
-
-
-
             <section>
                 <div class="casestudy2">
                     <h3>Presto Mobile App Planner</h3>
@@ -131,28 +133,59 @@
                     </p>
                     <a href="#">READ CASE STUDY</a>
                 </div>
-                <div class="casestudy2image">
+                <div class="caseStudyImageRight">
                     <img src="images/Presto.png" alt="">
                 </div>
+            </section>
+
+            <section>
+                <div class="caseStudyImageLeft">
+                    <img src="images/Canada_Council_laptop.png" alt="">
+                </div>
+                <div class="casestudy2">
+                    <h3>Canada Council for the Arts UI Redesign</h3>
+                    <p>Canada Council for the Arts is a government agency whose mission is to fund and invest in public art and artists through grants, services, prizes and payments. 
+                    </p>
+                    <a href="#">READ CASE STUDY</a>
+                </div>
+            </section>
+
         </div>
-        </section>
-</body>
+
 <footer>
-    <div class="fbutton">
-        <a href="#">LinkedIn</a>
+    <div class="LinkedIn">
+        <a href="index.html">
+            <img src="images/LinkedIn_normal.png" alt="LinkedIn">
+        </a>
     </div>
 
-    <div class="fbutton">
-        <a href="#">Email</a>
+    <div class="Email">
+        <a href="index.html">
+            <img src="images/Email_normal.png" alt="Email">
+        </a>
     </div>
 
-    <div class="fbutton">
-        <a href="#">GitHub</a>
+    <div class="GitHub">
+        <a href="index.html">
+            <img src="images/GitHub.png" alt="GitHub">
+        </a>
     </div>
-
+    <div class="upArrow_bounce">
+        <img width="40" height="40" alt=""  src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE4LjEuMSwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNjEyLjAwMiA2MTIuMDAyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA2MTIuMDAyIDYxMi4wMDI7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnPg0KCTxnPg0KCQk8cGF0aCBkPSJNNTkyLjYzOSwzNTguMzc2TDQyMy43MDYsMTg5LjQzOWMtNjQuOTA0LTY0Ljg5Mi0xNzAuNTA5LTY0Ljg5Mi0yMzUuNDIxLDAuMDA1TDE5LjM2MywzNTguMzc5DQoJCQljLTI1LjgxNywyNS44MTctMjUuODE3LDY3LjY3NCwwLDkzLjQ4OWMyNS44MTcsMjUuODE3LDY3LjY3OSwyNS44MTksOTMuNDkxLTAuMDAybDE2OC45Mi0xNjguOTI3DQoJCQljMTMuMzU0LTEzLjM1NywzNS4wOTItMTMuMzYxLDQ4LjQ0NC0wLjAwNWwxNjguOTMsMTY4LjkzMmMxMi45MSwxMi45MDcsMjkuODI1LDE5LjM2NSw0Ni43NDcsMTkuMzY1DQoJCQljMTYuOTE1LDAsMzMuODM1LTYuNDU1LDQ2Ljc0Ny0xOS4zNjVDNjE4LjQ1Niw0MjYuMDUxLDYxOC40NTYsMzg0LjE5Myw1OTIuNjM5LDM1OC4zNzZ6Ii8+DQoJPC9nPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo="/>
+      </div>
 
 </footer>
+    </div>
+
+    
+</body>
 
 
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous">
+    </script>
+<script src="js/index.js"></script>
 
 </html>
