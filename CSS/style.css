@@ -9,11 +9,12 @@
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
     align-items: center;
     padding-top: 20px;
     padding-bottom: 20px;
     }
+
 
  a {
     color: rgb(0, 0, 0);
@@ -69,20 +70,17 @@ main p {
 
     .button {
 
-        border-radius: 2px;
-        padding: 11px 25px;
-        font-family: 'Inter', sans-serif;
-        padding: .5rem 3rem;
-        color: #FC3E83; 
-        box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
-        border: solid 3px transparent;
-        background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #529efa, #FC3E83);
-        background-origin: border-box;
-        background-clip: content-box, border-box;
-        box-shadow: 2px 1000px 1px #fff inset;
+    background-color: white;
+    background-image: #421794;
+    color: #421794;
+    font-family: 'Inter', sans-serif;
+    padding: 11px 35px;
+    border-radius: 2px;
+    /* box-shadow: 0px 2px 2px rgba(66, 23, 148); */
       }
 
       .button:hover {
+          background-color: #421794;
         transition: 0.3s;
         box-shadow: none;
         color: white;
@@ -199,7 +197,12 @@ section a {
     color:#FC3E83;
     font-family: 'Inter', sans-serif;
     font-size: 14px;
-    font-weight: medium;
+    font-weight: bold;
+}
+
+section a:hover {
+    font-size: 16px;
+    font-weight: 700;
 }
 
 
@@ -239,6 +242,7 @@ footer {
 
 footer img{
     transition: 0.3s;
+    align-items: inherit;
 }
 footer img:hover {
     transform: scale(1.5);
