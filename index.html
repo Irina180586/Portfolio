@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Irina Gadimova UX</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="./CSS/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
@@ -14,37 +16,42 @@
 </head>
 
 <body>
-    <div class="container">
+    
         <header>
-            <div class="logo">
-                <a href="index.html">
-                    <img src="images/Logo.png" alt="logo">
-                </a>
+            <div class="container d-none d-sm-block">
+                <div class="row">
+                    <div class="col-lg-2 offset-lg-2 col-md-2 offset-md-1 col-sm-3   offset-sm-1">
+                        <a href="#">
+                            <img id="logo" src="images/Logo.png">
+                        </a>
+                    </div>
+                    <!-- Top Navigation -->
+                    <div class="col-lg-4 offset-lg-4 col-md-6 offset-md-3 col-sm-7 offset-sm-1 col-align-self-end">
+                        <ul class="topnav nav justify-content-between">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Bio</a>
+                            </li>
+                            <li class="nav-item">
+                                <!-- <a class="nav-link active disabled" href="#">Work</a> -->
+                                <a class="nav-link dropdown-toggle active" data-toggle="dropdown" href="#" role="button"
+                                    aria-haspopup="true" aria-expanded="false">Work</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Pollution Probe Website Redesign</a>
+                                    <a class="dropdown-item" href="#">Presto Mobile App Planner</a>
+                                    <a class="dropdown-item" href="#">Canada Council for the Arts UI Redesign</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Rèsumè</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Top Nav End  -->
+                </div>
             </div>
-
-
-            <nav>
-                <div class="navbutton">
-                    <a href="#">Bio</a>
-                </div>
-
-                <div class="navbutton">
-                    <a href="#">Work</a>
-                </div>
-
-                <div class="navbutton">
-                    <a href="#">Contuct</a>
-                </div>
-
-                <div class="navbutton">
-                    <a href="#">Rèsumè</a>
-                </div>
-
-                <div class="burgermenu">
-                    <img src="images/menu.svg" alt="my_burger_menu">
-                </div>
-
-            </nav>
 
             
 
@@ -121,7 +128,7 @@
                     <p>Redesigning the existing content-heavy website to a minimal, visually communicative one with a
                         clear brand statement.
                     </p>
-                    <a href="/Users/irinagadimova/Documents/MyCode/UX_UI_HW_20./index.html">READ CASE STUDY</a>
+                    <a href="views/polution.html">READ CASE STUDY</a>
                 </div>
             </section>
 
@@ -196,9 +203,6 @@
                 </a>
             </div>
         </footer>
-    </div>
-
-
 </body>
 
 
@@ -207,6 +211,7 @@
 <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
     crossorigin="anonymous">
     </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <script src="js/index.js"></script>
 
 </html>
