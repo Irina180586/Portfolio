@@ -12,6 +12,8 @@ $("#close").on("click", function(){
 
 
 $(document).ready(function () {
+
+
     if ($(window).scrollTop() > 145) {
         $("#navbar").css('opacity', '100');
     }

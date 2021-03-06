@@ -1,5 +1,5 @@
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -9,8 +9,13 @@ body {
     position: relative;
 }
 
-h1, h2, h3, h4, h5, h6 {
-font-family: 'Roboto', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
 }
 
 h1 {
@@ -28,11 +33,11 @@ header {
     margin-bottom: 6.6rem;
 }
 
-p{
+p {
     margin-bottom: 3rem;
 }
 
-.image-row{
+.image-row {
     margin-bottom: 3rem;
 }
 
@@ -40,37 +45,37 @@ ul {
     list-style-position: outside;
 }
 
-#navbar_items{
+#navbar_items {
     background-color: transparent;
-    padding-top:2rem;
+    padding-top: 2rem;
 }
 
 ul.content_ul li {
     padding-bottom: 1.5rem;
 }
 
-ul.navbar_ul li{
+ul.navbar_ul li {
     padding-bottom: 0rem;
     padding-top: rem;
 }
 
-ul.navbar_ul li a{
+ul.navbar_ul li a {
     padding-bottom: 0.2rem;
     padding-top: 0rem;
-    text-transform: uppercase; 
+    text-transform: uppercase;
 }
 
-#navbar_title{
+#navbar_title {
     padding-left: 1.5rem;
     color: grey;
 }
 
-ul.navbar_ul li a.active{
+ul.navbar_ul li a.active {
     font-weight: 700;
 }
 
-.display_img{
-    width:100%;
+.display_img {
+    width: 100%;
 }
 
 #navbar {
@@ -82,36 +87,36 @@ ul.navbar_ul li a.active{
 }
 
 .topnav .nav-link {
-    color:black;
+    color: black;
     padding-right: 0;
     padding-left: 0;
-     border-bottom: transparent 2px solid;
-     padding-bottom: 0;
+    border-bottom: transparent 2px solid;
+    padding-bottom: 0;
 }
 
-.topnav .nav-link:hover{
+.topnav .nav-link:hover {
     border-bottom: #FC3E83 2px solid;
 }
 
-.topnav .nav-link.active  {
-border-bottom: #933efc 2px solid;
+.topnav .nav-link.active {
+    border-bottom: #933efc 2px solid;
 }
 
 .dropdown-item {
     padding: 0.55rem;
 }
 
-#logo{
-    width:2rem;
+#logo {
+    width: 2rem;
 }
 
 .back-to-top {
     transition: all 0.3s ease-in-out;
     position: fixed;
-    padding:0;
+    padding: 0;
     bottom: 1.5rem;
-    right: 1.2rem ;
-    opacity:0;
+    right: 1.2rem;
+    opacity: 0;
 }
 
 /* .back-to-top:active, .btn-light:not(:disabled):not(.disabled):active {
@@ -120,10 +125,10 @@ border-bottom: #933efc 2px solid;
 } */
 
 .material-icons.md-48 {
-  font-size: 5.5rem; 
+    font-size: 5.5rem;
 }
 
-.footer_icon img{
+.footer_icon img {
     max-width: 3rem;
     margin-right: 1rem;
     margin-top: 2rem;
@@ -139,50 +144,51 @@ border-bottom: #933efc 2px solid;
 
 
 @media screen and (max-width: 1040px) {
-ul.navbar_ul li{
-    padding-bottom: 0.15rem;
-}
+    ul.navbar_ul li {
+        padding-bottom: 0.15rem;
+    }
 
-  ul.navbar_ul li a{
-    font-size: 0.9rem;
-  }
+    ul.navbar_ul li a {
+        font-size: 0.9rem;
+    }
 
-  #navbar_title{
-    padding-left: 1.4rem;
+    #navbar_title {
+        padding-left: 1.4rem;
     }
 
     .back-to-top {
-    position: fixed;
-    bottom: 0.3rem;
-    right: 0.3rem ;
-    display: none;
-}
-.material-icons.md-48 {
-  font-size: 3.5rem; 
-}
+        position: fixed;
+        bottom: 0.3rem;
+        right: 0.3rem;
+        display: none;
+    }
+
+    .material-icons.md-48 {
+        font-size: 3.5rem;
+    }
 }
 
 @media screen and (max-width: 840px) {
-ul.navbar_ul li{
-    padding-bottom: 0.3rem;
-}
-
-  ul.navbar_ul li a{
-    font-size: 0.7rem;
-  }
-
-  #navbar_title{
-    padding-left: 0.9rem;
+    ul.navbar_ul li {
+        padding-bottom: 0.3rem;
     }
 
-        .back-to-top {
-    position: fixed;
-    bottom: 0.1rem;
-    right: 0.1rem ;
-    display: none;
-}
-.material-icons.md-48 {
-  font-size: 2.0rem; 
-}
-}
+    ul.navbar_ul li a {
+        font-size: 0.7rem;
+    }
 
+    #navbar_title {
+        padding-left: 0.9rem;
+    }
+
+    .back-to-top {
+        position: fixed;
+        bottom: 0.1rem;
+        right: 0.1rem;
+        display: none;
+    }
+
+    .material-icons.md-48 {
+        font-size: 2.0rem;
+    }
+}

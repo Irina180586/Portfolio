@@ -86,8 +86,8 @@ p {
 }
 
 .caseImg {
-    height: 350px;
-    width: 410px;
+    height: 439px;
+    width: 452px;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -329,15 +329,16 @@ section a:hover {
 }
 
 
-@media screen and (max-width: 1040px) {
+
+@media screen and (max-width: 1200px) {
     .imageHolder {
-        height: 400px;
+        height: 500px;
         padding: 0;
     }
 
     .caseImg {
-        height: 250px;
-        width: 260px;
+        height: 350px;
+        width: 410px;
         position: absolute;
         top: 0;
         bottom: 0;
@@ -347,8 +348,48 @@ section a:hover {
 
     .casestudy,
     .casestudy2 {
-        margin-top: 0%;
+        margin-top: 5%;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .imageHolder {
+        height: 400px;
+        padding: 0;
     }
 
+    .caseImg {
+        height: 350px;
+        width: 380px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        padding: 0;
+    }
 
+    .casestudy,
+    .casestudy2 {
+        margin-top: 15%;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .imageHolder {
+        height: 400px;
+        padding: 0;
+    }
+
+    .caseImg {
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .casestudy,
+    .casestudy2 {
+        margin-top: 10%;
+        margin-left: 5%;
+    }
 }
