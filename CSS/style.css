@@ -1,62 +1,63 @@
 header {
-margin-top: 3.1rem;
-margin-bottom: 6.6rem;
+    margin-top: 3.1rem;
+    margin-bottom: 6.6rem;
 }
 
 
 body {
-background-color: #F7F8FA;
-font-size: 16px;
+    cursor: crosshair;
+    background-color: #F7F8FA;
+    font-size: 16px;
 }
 
 
 .navbutton {
-padding: 11px 25px;
-display: inline-block;
-position: relative;
-} 
+    padding: 11px 25px;
+    display: inline-block;
+    position: relative;
+}
 
-.navbutton a{
-border-bottom: 4px solid transparent;
+.navbutton a {
+    border-bottom: 4px solid transparent;
 }
 
 .navbutton a:hover {
-transition: 0.2s;
-border-bottom: 4px solid #FC3E83;
+    transition: 0.2s;
+    border-bottom: 4px solid #FC3E83;
 
 }
 
 
 
 .burgermenu {
-display: none;
+    display: none;
 
 }
 
 .logo img {
-width: 55%;
+    width: 55%;
 }
 
-ul.navbar_ul li a.active{
-font-weight: 700;
+ul.navbar_ul li a.active {
+    font-weight: 700;
 }
 
 h1 {
-font-family: 'Lato', sans-serif;
-font-size: 1rem;
-color: rgb(0, 0, 0);
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
 }
 
 p {
-font-family: 'Lato', sans-serif;
-font-weight: medium;
-font-size: 1.1rem;
-color: #56595A;
+    font-family: 'Lato', sans-serif;
+    font-weight: medium;
+    font-size: 1.1rem;
+    color: #56595A;
 }
 
 .button {
 
-background-color: #edeeef;
+    background-color: #edeeef;
     color: #421794;
     font-family: 'Inter', sans-serif;
     padding: 11px 35px;
@@ -65,118 +66,145 @@ background-color: #edeeef;
     border-top: none 0px;
     border-right: none;
     transition: all 0.3s;
-/* box-shadow: 0px 2px 2px rgba(66, 23, 148); */
+    /* box-shadow: 0px 2px 2px rgba(66, 23, 148); */
 }
 
 .button:hover {
-background-color: #421794;
-transition: 0.3s;
-box-shadow: none;
-color: white;
+    background-color: #421794;
+    transition: 0.3s;
+    box-shadow: none;
+    color: white;
 }
 
 .skillset {
-margin-bottom: 35px;
+    margin-bottom: 35px;
 }
 
+.imageHolder {
+    height: 670px;
+    padding: 0;
+}
+
+.caseImg {
+    height: 350px;
+    width: 410px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 0;
+}
 
 .skillset h1 {
-color: #FC3E83;
-font-family: 'Lato', sans-serif;
+    color: #FC3E83;
+    font-family: 'Lato', sans-serif;
 }
 
-.card{
-background-color: #421794;
-border: none;
-color: white;
-font-family: 'Lato', sans-serif;
+.card {
+    background-color: #421794;
+    border: none;
+    color: white;
+    font-family: 'Lato', sans-serif;
 }
 
-.card h1{
+.card h1 {
     text-align: center;
-    color:white;
+    color: white;
     font-size: 1.1rem;
     padding-top: 1rem;
 }
 
-.card hr{
+.card hr {
     border-top: solid 2px white;
     border-radius: 15px;
 }
+
 .card img {
-filter: invert(100);
-width: 50px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    filter: invert(100);
+    width: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
 
 
 #myWrokH1 {
-margin-top: 50px;
-font-family: 'Lato', sans-serif;
-font-size: 2rem;
-color: black;
+    margin-top: 50px;
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    color: black;
 }
 
-.herobox1 h1{
-ont-family: 'Lato', sans-serif;
-font-size: 2rem;
-margin-top: 3rem;
-color: rgb(0, 0, 0);
+.herobox1 h1 {
+    ont-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    margin-top: 3rem;
+    color: rgb(0, 0, 0);
 }
 
-.herobox1 p{
-margin-top: 2rem;
-font-family: 'Lato', sans-serif;
-font-weight: medium;
-font-size: 1.8rem;
-color: rgb(0, 0, 0)
+.herobox1 p {
+    margin-top: 2rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: medium;
+    font-size: 1.8rem;
+    color: rgb(0, 0, 0)
 }
 
 
 section {
-min-height: 300px;
+    min-height: 300px;
 }
 
 
 
 section h3 {
-color: black;
-font-family: 'Lato', sans-serif;
-font-size: 2rem;
-font-weight: medium;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    font-weight: medium;
 }
-
 
 
 section a {
-color:#FC3E83;
-font-family: 'Inter', sans-serif;
-font-size: 1rem;
-font-weight: 500;
+    color: #FC3E83;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
 }
 
 section a:hover {
-color:#421794;
-text-decoration: none;
-font-weight: 700;
+    color: #421794;
+    text-decoration: none;
+    font-weight: 700;
 }
 
-.casestudy{
-color: black;
-font-family: 'Lato', sans-serif;
-font-weight: medium;
+.casestudy {
+    margin-top: 10%;
+    margin-left: 20%;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-weight: medium;
 }
 
-.casestudy h3{
-margin-bottom: 2rem;
+.casestudy2 {
+    padding-left: 1rem;
+    margin-top: 10%;
+    margin-right: 20%;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-weight: medium;
 }
 
-.casestudy p{
-font-size: 1.1rem;
+
+.casestudy h3 {
+    margin-top: 2 rem;
+    margin-bottom: 2rem;
+}
+
+.casestudy p {
+    font-size: 1.1rem;
 }
 
 
@@ -186,15 +214,15 @@ font-size: 1.1rem;
 
 
 
-.footer_icon img{
-max-width: 3rem;
-margin-right: 1rem;
-margin-top: 2rem;
+.footer_icon img {
+    max-width: 3rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
 }
 
 .footer_icon img:hover {
-transform: scale(1.3);
-transition-duration: 0.3s;
+    transform: scale(1.3);
+    transition-duration: 0.3s;
 }
 
 
@@ -205,90 +233,122 @@ transition-duration: 0.3s;
 
 
 .modal-content {
-background-color: #421794;
-margin: 15% auto; /* 15% from the top and centered */
-padding: 20px;
-border: 1px solid #888;
-width: 90%; /* Could be more or less, depending on screen size */
+    background-color: #421794;
+    margin: 15% auto;
+    /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 90%;
+    /* Could be more or less, depending on screen size */
 }
 
-.closebt{
-padding-bottom: 20px;
-text-align: right;
-padding-right: 10px;
-}
-#close{
-font-size:40px;
-color: #FC3E83;
-font-weight: 200;
+.closebt {
+    padding-bottom: 20px;
+    text-align: right;
+    padding-right: 10px;
 }
 
-#close:hover{
-font:120%;
-cursor: pointer;
-font-weight: 800;
+#close {
+    font-size: 40px;
+    color: #FC3E83;
+    font-weight: 200;
+}
+
+#close:hover {
+    font: 120%;
+    cursor: pointer;
+    font-weight: 800;
 }
 
 
 /* Navigation */
 
 .topnav .nav-link {
-color:black;
-padding-right: 0;
-padding-left: 0;
-border-bottom: transparent 2px solid;
-padding-bottom: 0;
+    color: black;
+    padding-right: 0;
+    padding-left: 0;
+    border-bottom: transparent 2px solid;
+    padding-bottom: 0;
 }
 
-.topnav .nav-link:hover{
-border-bottom: #FC3E83 2px solid;
+.topnav .nav-link:hover {
+    border-bottom: #FC3E83 2px solid;
 }
 
-.topnav .nav-link.active  {
-border-bottom: #933efc 2px solid;
+.topnav .nav-link.active {
+    border-bottom: #933efc 2px solid;
 }
 
 .dropdown-item {
-padding: 0.55rem;
+    padding: 0.55rem;
 }
 
-#logo{
-width:2rem;
+#logo {
+    width: 2rem;
 }
 
-.container-fluid{
-padding-left: 10px;
-padding-right: 10px;
+.container-fluid {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-.caseImg{
-max-width: 80%;
-max-height: 80%;
-position: absolute;
-top: 0;
-bottom: 0;
-margin: auto;
+.row {
+    transition: all 0.4s ease-in-out;
 }
 
-.experimental{
-padding: 0;
+.experimental {
+    padding: 0;
 }
 
-.purple{
-background-color: #421794;
-height:450px;
+.purple {
+    background-color: #421794;
 }
 
-.pastel{
-background-color: rgb(247 221 179);
-height:450px; 
+.backgroundBack {
+    background-color: #F7F8FA;
+}
+
+.white {
+    background-color: white;
+}
+
+
+.blankBackground {
+    background-color: white;
+}
+
+.pastel {
+    background-color: rgb(247 221 179);
 }
 
 @media screen and (max-width: 1040px) {
-section h3 {
-background-color: #F7F8FA;
-font-size: 1.5rem;
-}
+    section h3 {
+        background-color: #F7F8FA;
+        font-size: 1.5rem;
+    }
 }
 
 
+@media screen and (max-width: 1040px) {
+    .imageHolder {
+        height: 400px;
+        padding: 0;
+    }
+
+    .caseImg {
+        height: 250px;
+        width: 260px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        padding: 0;
+    }
+
+    .casestudy,
+    .casestudy2 {
+        margin-top: 0%;
+    }
+
+
+}
