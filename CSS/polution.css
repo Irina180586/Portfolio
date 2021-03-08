@@ -110,6 +110,10 @@ ul.navbar_ul li a.active {
     width: 2rem;
 }
 
+.imagepreview {
+    width: 100%;
+}
+
 .back-to-top {
     transition: all 0.3s ease-in-out;
     position: fixed;
@@ -190,5 +194,26 @@ ul.navbar_ul li a.active {
 
     .material-icons.md-48 {
         font-size: 2.0rem;
+    }
+}
+
+
+
+@media screen and (max-width: 375px) {
+    header {
+        margin-bottom: 2.5rem;
+        margin-top: 1.0rem;
+    }
+
+    h4 {
+        margin-top: 2.2rem;
+    }
+
+    p {
+        margin-bottom: 1.5rem;
+    }
+
+    .image-row {
+        margin-bottom: 1rem;
     }
 }
