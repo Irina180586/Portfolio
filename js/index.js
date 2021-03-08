@@ -9,6 +9,13 @@ $("#close").on("click", function(){
     $("#myModal").hide();
 });
 
+$(function() {
+		$('.zoom').on('click', function() {
+			$('.imagepreview').attr('src', $(this).attr('src'));
+			$('#imagemodal').modal('show');   
+		});		
+});
+
 
 
 $(document).ready(function () {
@@ -23,7 +30,6 @@ $(document).ready(function () {
             $('.back-to-top').css('opacity', '0');
         }
         if ($(window).scrollTop() > 145) {
-            console.log("here");
             $("#navbar").css('opacity', '100');
             $('.back-to-top').css('opacity', '100');
         }
@@ -47,7 +53,7 @@ $(document).ready(function () {
     $("#hoverRow1").hover(
         function () {
             $("#colorRow1").addClass("purple");
-            $("#textRow1").addClass("white").removeClass("backgroundBack");
+            $("#textRow1").addClass("white").css("backgroundBack");
         }
     )
 
@@ -72,17 +78,22 @@ $(document).ready(function () {
             }
     )
 
-        $("#hoverRow3").hover(
+        $("#colorRow3").hover(
         function () {
             $("#colorRow3").addClass("purple");
-            $("#textRow3").addClass("white").removeClass("backgroundBack");
+                $("#textRow3").css("background-color", "white");
         }
-    )
+        )
+    
+      $("#textRow3").hover(
+          function () {
+               $("#textRow3").css("background-color", "white");
+          })
 
-    $("#hoverRow3").mouseout(
+    $("#colorRow3").mouseout(
         function () {
-                $("#colorRow3").removeClass("purple");
-                $("#textRow3").removeClass("white").addClass("backgroundBack");;
+            $("#colorRow3").removeClass("purple");
+             $("#textRow3").css("background-color", "#F7F8FA");
             }
     )
 });

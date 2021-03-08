@@ -53,7 +53,7 @@
         </div>
     </header>
 
-    <div class="container">
+    <div class="container-md">
 
         <!-- Hero Box -->
         <section>
@@ -70,7 +70,7 @@
                 </div>
 
                 <div class="col-lg-4 offset-lg-2 col-md-5 col-sm-5 justify-content-end">
-                    <img src="images/Hero_img.png" alt="Irina_Gadimova_image">
+                    <img src="images/Hero_img.png" style="width:100%" alt="Irina_Gadimova_image">
                 </div>
             </div>
         </section>
@@ -81,9 +81,9 @@
         <!-- Pollution Prob -->
         <section>
             <div id="colorRow1" class="row justify-content-center">
-                <div class="col-lg-6 col-md-6 col-sm-6  experimental purple d-flex justify-content-end">
-                    <div class="col-lg-11 offset-lg-1 d-flex justify-content-end imageHolder">
-                        <img src="./images/Pollution.png" class="caseImg" alt="">
+                <div class="col-lg-6 col-md-6 col-sm-6  experimental purple  fix-mobile d-flex justify-content-end">
+                    <div class="col-lg-11 offset-lg-1 d-flex  justify-content-end imageHolder">
+                        <img src="./images/Pollution.png" class="caseImg zoom" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6 align-self-center experimental">
@@ -118,9 +118,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 experimental pastel d-flex justify-content-start">
-                    <div class="col-lg-11 imageHolder">
-                        <img src="./images/Presto.png" class="caseImg" alt="">
+                <div class="col-lg-6 col-md-6 experimental pastel fix-mobile d-flex justify-content-start">
+                    <div class="col-lg-11 imageHolder small-img">
+                        <img src="./images/Presto.png" class="caseImg zoom" alt="">
                     </div>
                 </div>
             </div>
@@ -129,9 +129,9 @@
         <!-- Canada Concil for Arts -->
         <section>
             <div id="colorRow3" class="row justify-content-center ">
-                <div class="col-lg-6 col-md-6 col-sm-6  experimental purple d-flex justify-content-end">
+                <div class="col-lg-6 col-md-6 col-sm-6  experimental purple  fix-mobile  d-flex justify-content-end">
                     <div class="col-lg-11 offset-lg-1 d-flex justify-content-end imageHolder">
-                        <img src="./images/Canada_Council.png" class="caseImg" alt="">
+                        <img src="./images/Canada_Council.png" class="caseImg zoom" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6 align-self-center experimental">
@@ -179,10 +179,23 @@
 
     <!-- IRA -->
 
-    <!--Skillset Popup-->
+    <!-- Popup-->
+    <div class="modal fade" id="imagemodal" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="" data-dismiss="modal" class="imagepreview" style="height: 100%;">
+                </div>
+            </div>
+        </div>
+    </div>
 
 
-    <!-- The Modal -->
+
+
+
+
+    <!-- The Skillset -->
     <div class="modal fade" id="myModal">
         <div class="modal-dialog modal-xl">
             <div class="modal-content">

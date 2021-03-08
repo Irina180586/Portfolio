@@ -95,6 +95,12 @@ p {
     padding: 0;
 }
 
+
+
+.imagepreview:hover {
+    cursor: pointer;
+}
+
 .skillset h1 {
     color: #FC3E83;
     font-family: 'Lato', sans-serif;
@@ -304,22 +310,46 @@ section a:hover {
     background-color: #421794;
 }
 
-.backgroundBack {
-    background-color: #F7F8FA;
-}
 
 .white {
     background-color: white;
+    transition: .5s ease-in-out;
 }
 
 
 .blankBackground {
     background-color: white;
+    transition: .5s ease-in-out;
 }
 
 .pastel {
     background-color: rgb(247 221 179);
 }
+
+#colorRow3 {
+    background: linear-gradient(to left, transparent 50%, #421794 50%) right;
+    background-size: 200%;
+    transition-delay: .1s;
+    transition: .7s ease-out;
+}
+
+
+#colorRow3:hover {
+    background-position: left;
+}
+
+#textRow1,
+#textRow2,
+#textRow3 {
+    transition: .5s ease-in-out;
+    transition-delay: 0.2s;
+    background-color: #F7F8FA;
+}
+
+.zoom:hover {
+    cursor: pointer;
+}
+
 
 @media screen and (max-width: 1040px) {
     section h3 {
@@ -350,34 +380,28 @@ section a:hover {
     .casestudy2 {
         margin-top: 5%;
     }
-}
 
-@media screen and (max-width: 1040px) {
-    .imageHolder {
-        height: 400px;
-        padding: 0;
+    .herobox1 h1 {
+        font-size: 1.2rem;
+        margin-top: 2rem;
     }
 
-    .caseImg {
-        height: 350px;
-        width: 380px;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        margin: auto;
-        padding: 0;
-    }
-
-    .casestudy,
-    .casestudy2 {
-        margin-top: 15%;
+    .herobox1 p {
+        margin-top: 2rem;
+        font-size: 1.5rem;
     }
 }
+
+
 
 @media screen and (max-width: 990px) {
     .imageHolder {
-        height: 400px;
+        height: 380px;
         padding: 0;
+    }
+
+    .small-img {
+        height: 365px;
     }
 
     .caseImg {
@@ -387,9 +411,30 @@ section a:hover {
         padding-left: 15px;
     }
 
+    .small-img .caseImg {
+        padding-top: 15px;
+    }
+
     .casestudy,
     .casestudy2 {
         margin-top: 10%;
         margin-left: 5%;
+    }
+
+    .row {
+        flex-wrap: nowrap;
+    }
+}
+
+
+@media screen and (max-width: 720px) {
+    .herobox1 h1 {
+        font-size: 1rem;
+        margin-top: 2rem;
+    }
+
+    .herobox1 p {
+        margin-top: 2rem;
+        font-size: 1.1rem;
     }
 }
