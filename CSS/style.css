@@ -430,6 +430,29 @@ section a:hover {
     .row {
         flex-wrap: nowrap;
     }
+
+    #myModal .row {
+        flex-wrap: wrap;
+    }
+
+    #myModal h1 {
+        font-size: wrap;
+        padding-top: 0.2rem;
+    }
+
+    #myModal .card {
+        padding-bottom: 1rem;
+    }
+
+    #myModal ul {
+        padding-left: 0;
+    }
+
+    #myModal hr {
+        margin-top: 0.3rem;
+        margin-bottom: 0.3rem;
+    }
+
 }
 
 
